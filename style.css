@@ -37,3 +37,51 @@ body {
     justify-content: space-between;
     list-style: none;
 }
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px;
+    transition: all 0.5s ease;
+}
+
+.main-menu ul li {
+    margin-right: 9px;
+}
+
+.main-menu ul li a:hover {
+    background: red;
+}
+
+.main-news-box {
+    width: 1800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-main-box {
+    border-top: 4px solid;
+    color: cadetblue;
+    padding: 20px;
+}
+
+.footer-name-logo-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sub-menu ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer-sub-menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
